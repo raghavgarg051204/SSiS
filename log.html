@@ -1,0 +1,70 @@
+<html>
+ <head>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-800 flex items-center justify-center min-h-screen">
+  <div class="bg-gray-700 p-8 rounded-lg shadow-lg w-full max-w-md">
+   <div class="flex justify-between items-center mb-6">
+    <h2 class="text-gray-300 text-xl font-semibold">
+     JOIN SilverScreeninSight
+    </h2>
+    <i class="fas fa-times text-gray-400 cursor-pointer">
+    </i>
+   </div>
+   <form>
+    <div class="mb-4">
+     <label class="block text-gray-400 mb-2" for="email">
+      Email address
+     </label>
+     <input class="w-full p-2 rounded bg-gray-600 text-gray-200 border border-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500" id="email" required="" type="email"/>
+    </div>
+    <div class="mb-4">
+     <label class="block text-gray-400 mb-2" for="username">
+      Username
+     </label>
+     <input class="w-full p-2 rounded bg-gray-600 text-gray-200 border border-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500" id="username" required="" type="text"/>
+    </div>
+    <div class="mb-4">
+     <label class="block text-gray-400 mb-2" for="password">
+      Password
+     </label>
+     <input class="w-full p-2 rounded bg-gray-600 text-gray-200 border border-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500" id="password" required="" type="password"/>
+    </div>
+    <div class="mb-4">
+     <input class="mr-2" id="terms" required="" type="checkbox"/>
+     <label class="text-gray-400" for="terms">
+      I’m at least 16 years old and accept the
+      <a class="text-blue-400" href="#">
+       Terms of Use
+      </a>
+      .
+     </label>
+    </div>
+    <div class="mb-4">
+     <input class="mr-2" id="privacy" required="" type="checkbox"/>
+     <label class="text-gray-400" for="privacy">
+      I accept the
+      <a class="text-blue-400" href="#">
+       Privacy Policy
+      </a>
+      and consent to the processing of my personal information in accordance with it.
+     </label>
+    </div>
+    <div class="mb-4">
+     <div class="bg-white p-4 rounded flex items-center justify-between">
+      <input class="mr-2" id="captcha" required="" type="checkbox"/>
+      <label class="text-gray-700" for="captcha">
+       I am human
+      </label>
+      <img alt="hCaptcha logo" class="ml-2" height="50" src="https://storage.googleapis.com/a1aa/image/Cq3O82tgXMyo0QQZkKNlIHb-oBdBKS-8mdyaaBY3j0Q.jpg" width="50"/>
+     </div>
+    </div>
+    <button class="w-full bg-green-500 text-white p-2 rounded hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500">
+    <a href="index.html">SIGN UP</a>
+    </button>
+   </form>
+  </div>
+ </body>
+</html>

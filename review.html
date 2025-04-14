@@ -1,0 +1,86 @@
+<html>
+ <head>
+    <title>SilverScreeninSight</title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-800 flex items-center justify-center h-screen">
+  <div class="bg-gray-700 text-white rounded-lg shadow-lg p-6 w-full max-w-2xl">
+   <div class="flex justify-between items-center mb-4">
+    <button class="text-gray-400 hover:text-white">
+     <i class="fas fa-arrow-left">
+     </i>
+     <a href="index.html">BACK</a>
+    </button>
+    <h2 class="text-xl font-semibold">
+     I watched...
+    </h2>
+    <button class="text-gray-400 hover:text-white">
+     <i class="fas fa-times">
+     </i>
+    </button>
+   </div>
+   <div class="flex">
+    <img alt="Interstellar movie poster" class="w-32 h-48 rounded-lg shadow-md" height="150" src="https://m.media-amazon.com/images/I/61DUasB6X5L._AC_UF894,1000_QL80_.jpg" width="100"/>
+    <div class="ml-6 flex-1">
+     <h3 class="text-2xl font-semibold">
+      Interstellar
+      <span class="text-gray-400">
+       2014
+      </span>
+     </h3>
+     <div class="flex items-center mt-2">
+      <input class="mr-2" id="watched" type="checkbox"/>
+      <label class="mr-4" for="watched">
+       Watched on
+      </label>
+      <input class="bg-gray-600 text-white rounded px-2 py-1 w-32" type="text" value="17 Mar 2025"/>
+     </div>
+     <div class="flex items-center mt-2">
+      <input class="mr-2" id="watched-before" type="checkbox"/>
+      <label for="watched-before">
+       I’ve watched this film before
+      </label>
+     </div>
+     <textarea class="bg-gray-600 text-white rounded mt-4 p-2 w-full h-24" placeholder="Add a review..."></textarea>
+     <div class="flex items-center mt-4">
+      <div class="flex-1">
+       <label class="block text-gray-400" for="tags">
+        Tags
+       </label>
+       <input class="bg-gray-600 text-white rounded px-2 py-1 w-full" id="tags" placeholder="eg. netflix" type="text"/>
+      </div>
+      <div class="flex items-center ml-4">
+       <label class="block text-gray-400 mr-2" for="rating">
+        Rating
+       </label>
+       <div class="flex" id="rating">
+        <i class="fas fa-star text-gray-400">
+        </i>
+        <i class="fas fa-star text-gray-400">
+        </i>
+        <i class="fas fa-star text-gray-400">
+        </i>
+        <i class="fas fa-star text-gray-400">
+        </i>
+        <i class="fas fa-star text-gray-400">
+        </i>
+       </div>
+      </div>
+      <div class="flex items-center ml-4">
+       <label class="block text-gray-400 mr-2" for="like">
+        Like
+       </label>
+       <i class="fas fa-heart text-gray-400">
+       </i>
+      </div>
+     </div>
+     <button class="bg-green-600 text-white rounded px-4 py-2 mt-4">
+      <a href="index.html">SAVE</a>
+     </button>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
